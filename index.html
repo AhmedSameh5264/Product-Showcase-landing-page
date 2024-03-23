@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <header>
+        <header class="fristheader">
             <div class="logo">
                <a href=""><img src="images/logo.png" ></a>
             </div>
@@ -33,9 +33,54 @@
                 </form>
             </div>
             <div class="detals">
-                <a href=""><h2>Account</h2></a> <i class="fa-solid fa-cart-shopping"></i>
-                <h2>My Cart:</h2> <span>(0)</span>
+                <a href=""><h2>Account</h2></a> <i id="mycart" class="fa-solid fa-cart-shopping"></i>
+                <h2>My Cart:( <span id="myspan" >0</span> ) </h2>
             </div>
         </header>
+        <section class="mainproject">
+                <nav class="left">
+                    <div class="bigimg">
+                        <img id="mybigimg" src="images/main.png" >
+                    </div>
+                    <div class="smallimg">
+                        <img onclick="yongimg(this.src)"  id="mainnn" src="images/main.png" >
+                        <img onclick="yongimg(this.src)" src="images/two.png" >
+                        <img onclick="yongimg(this.src)" src="images/three.png" >
+                        <img onclick="yongimg(this.src)" src="images/four.png" >
+                        
+                    </div>    
+                </nav>
+                <nav class="right">
+                        <div class="fristpart">
+                            <h2>$179.00</h2>
+                            <h3>Vintage Canon <br>
+                            <span>AE-1 Program</span></h3>
+                        </div>
+                        <div class="scnpart">
+                            <h4>Visit the Canon Store</h4>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i id="grayone" class="fa-solid fa-star"></i>
+                            <h5>4.7 <span><i class="fa-solid fa-star"></i></span></h5>
+                            <h3>(90 Ratings)</h3>
+                        </div>
+                        <div class="thirdpart">
+                            <button onclick="btntest()" id="mybtn">ADD TO CART</button>
+                            <button onclick="wishlist()" id="scnbutton"><i id="myheart" class="fa-regular fa-heart"></i>ADD TO WISHLIST</button>
+                            <h3>Ships from 26 September 2020</h3>
+                        </div>
+                        <div class="fourthone">
+                            <ul>
+                                <li>Classic mechanical Canon ae-1 program camera body</li>
+                                <li>Led light meter display</li>
+                                <li>Compatible with all canon fd lenses</li>
+                                <li>This camera comes width a canon fd 50mm f/1.8 lens</li>
+                            </ul>
+                        </div>
+                </nav>
+        </section>
+<script src="js/main.js"></script>
 </body>
 </html>
