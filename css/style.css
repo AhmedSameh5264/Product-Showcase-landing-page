@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    color: inherit;
+}
+header{
+    display: flex;
+    padding-top: 10px;
+}
+div.logo{
+    width: 10%;
+}
+div.logo img{
+    width: 130px;
+}
+
+div.headerlist{
+    width: 45%;
+    
+}
+div.headerlist ul{
+    display: flex;
+    font-size: 14px;
+}
+div.headerlist li{
+    padding: 14px 12px;
+    color: gray;
+}
+#prod{
+    color: black;
+    font-weight: bold;
+}
+div.detals{
+    display: flex;
+}
+
+div.serhbar{
+    width: 23%;
+    position: relative;
+    margin-left: 23px;
+}
+div.serhbar form{
+    padding-top: 10px;
+}
+div.serhbar input{
+    width: 85%;
+    border: none;
+    padding-left: 25px;
+}
+div.serhbar i{
+    position: absolute;
+    left: 1px;
+    top: 25%;
+    z-index: 1;
+    color: gray;
+}
+div.detals h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 14px;
+
+}
+div.detals span{
+    padding-top: 14px;
+    font-weight: bold;
+}
+div.detals i{
+    color: red;
+    padding: 19px 10px 0px 10px;
+}
